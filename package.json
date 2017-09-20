@@ -1,0 +1,30 @@
+{
+  "name": "ABP",
+  "version": "1.0.0",
+  "description": "Parson McKay Introduction to Microbiology",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build-js": "browserify main.js > bundle.js",
+    "watch-js": "watchify main.js -o bundle.js -v ",
+    "watch": "watchify -t [babelify --presets [ es2015 react ] ] main.js -o bundle.js -v "
+  },
+  "author": "Eugene Phang for Animated Medical Productions",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "babel-preset-react": "^6.5.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "watchify": "^3.9.0"
+  }
+}

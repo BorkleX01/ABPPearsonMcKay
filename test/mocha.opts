@@ -1,0 +1,4 @@
+--watch
+--require chai
+--ui bdd
+test/backend/**/*.js
