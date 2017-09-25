@@ -1,0 +1,202 @@
+.nav-btn-next {
+
+    float:right;
+}
+
+.paginator-row {
+    padding: 10px;
+}
+
+@media screen and (min-width:940px) {
+    .content-container iframe {
+        width: 100%
+    }
+}
+
+.question {
+    padding: 20px;
+    margin-bottom: 15px;
+    background: #f2f2f2;
+}
+
+form.lesson-quiz {
+    margin-top: 25px
+}
+
+form.lesson-quiz legend {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+form.lesson-quiz .answer {
+    position: relative;
+    clear: both;
+    margin: 0;
+    padding: 15px;
+    border-radius: 5px;
+    outline: 0!important
+}
+
+form.lesson-quiz .answer:hover label {
+    cursor: pointer
+}
+
+form.lesson-quiz .answer input[type=radio] {
+    float: left;
+    margin: 2px 0 0
+}
+
+form.lesson-quiz .answer label {
+    float: left;
+    font-weight: 400;
+    margin: 0 0 0 10px;
+    width: 86%
+}
+
+form.lesson-quiz .answer-reason {
+    display: none;
+    margin-top: 5px
+}
+
+form.lesson-quiz .indicator {
+    position: absolute;
+    top: 14px;
+    left: 13px;
+    height: 20px;
+    width: 20px;
+    /*margin: 2px 20px 0 0;*/
+    background-repeat: no-repeat;
+    background-image: url(../img/answer_indicator.png);
+    background-position: 0 0
+}
+
+
+.content {
+    padding: 30px 6px 5px;
+}
+
+h6.qa {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 5px
+}
+
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.transcript-btn {
+    margin-top: 26px;
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 10px;
+                       
+}
+
+.transcript-btn a {
+    
+}
+
+.transcript-btn a:hover {
+    color: white;
+}
+
+.transcript-btn a:visited {
+    color: white;
+}
+
+.transcript-wrapper {
+    display:none;
+}
+
+.content-container iframe {
+
+}
+
+#player-iframevideo-container {
+    border: 1px solid gray
+}
+
+.well {
+
+    overflow-y: auto;
+
+}
+
+.transcript {
+    max-height: 576px
+}
+
+.side-text {
+    min-height: 415px;
+    max-height: 415px;
+}
+
+.modal-dialog {
+    /*width: 900px;*/
+}
+
+.remed-open {
+    display:none;
+}
+
+.quiz-tables {
+    width:100%;
+}
+
+.quiz-notice {
+    font-style: italic;
+    text-align: right;
+}
+
+.title {
+    display:inline-block;
+    padding-left: 10px;
+}
+
+.contents-btn {
+
+}
+
+.contents-form {
+    float:right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.sub-title-bar h2 {
+    display: inline-block;
+}
+
+
+
+
+
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    outline: 2px solid red;
+    outline-offset: 2px;
+}
+
+.btn-submit-multichoice {
+    margin-top: 16px;
+    display: none;
+}
+
+.btn-submit-multichoice:focus {
+    outline: 2px solid red;
+    outline-offset: 2px;
+}
+
+.heading_major:focus {
+    outline: 2px solid red;
+    outline-offset: 2px;
+}
+
+.well:focus {
+    outline: 2px solid red;
+    outline-offset: 2px;
+}

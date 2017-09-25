@@ -14,8 +14,7 @@ describe('Basics', function() {
 
 describe('ARIA', function(){
     it('should give me a way to test ARIA programatically');
-    it('Does funny tabbing occue without React?');
-        
+    
 });
 
 describe('ReactJS', function(){
